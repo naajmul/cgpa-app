@@ -1,0 +1,65 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#064e1a"/>
+      <stop offset="60%"  stop-color="#1a6b3a"/>
+      <stop offset="100%" stop-color="#0a5c25"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.04)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="100"  r="200" fill="rgba(255,215,0,0.06)"/>
+  <circle cx="150"  cy="530"  r="160" fill="rgba(45,155,90,0.12)"/>
+  <circle cx="600"  cy="315"  r="450" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <circle cx="600"  cy="315"  r="350" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Logo circle background -->
+  <circle cx="600" cy="185" r="75" fill="white" opacity="0.95"/>
+  <circle cx="600" cy="185" r="79" fill="none" stroke="rgba(200,164,21,0.5)" stroke-width="4"/>
+
+  <!-- University name -->
+  <text x="600" y="300" font-family="Georgia, serif" font-size="22" fill="rgba(255,215,0,0.85)"
+        text-anchor="middle" font-weight="600" letter-spacing="2">
+    GOPALGANJ SCIENCE AND TECHNOLOGY UNIVERSITY
+  </text>
+
+  <!-- Main title -->
+  <text x="600" y="370" font-family="Georgia, serif" font-size="64" fill="white"
+        text-anchor="middle" font-weight="700">
+    EEE Study Hub
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.6)"
+        text-anchor="middle">
+    Department of Electrical &amp; Electronic Engineering
+  </text>
+
+  <!-- Feature pills -->
+  <rect x="200" y="460" width="200" height="44" rx="22" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="300" y="487" font-family="Arial" font-size="18" fill="white" text-anchor="middle">📊 CGPA Calc</text>
+
+  <rect x="430" y="460" width="200" height="44" rx="22" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="530" y="487" font-family="Arial" font-size="18" fill="white" text-anchor="middle">📄 Questions</text>
+
+  <rect x="660" y="460" width="200" height="44" rx="22" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="760" y="487" font-family="Arial" font-size="18" fill="white" text-anchor="middle">📚 Resources</text>
+
+  <!-- URL -->
+  <text x="600" y="580" font-family="Arial" font-size="18" fill="rgba(255,255,255,0.35)"
+        text-anchor="middle">
+    naajmul.github.io/cgpa-app
+  </text>
+
+  <!-- UGC tag -->
+  <rect x="530" y="595" width="140" height="26" rx="13" fill="rgba(200,164,21,0.2)" stroke="rgba(200,164,21,0.4)" stroke-width="1"/>
+  <text x="600" y="613" font-family="Arial" font-size="13" fill="rgba(255,215,0,0.8)"
+        text-anchor="middle" font-weight="600">UGC Standard</text>
+</svg>
