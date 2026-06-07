@@ -28,6 +28,68 @@
     <link rel="apple-touch-icon"      href="/cgpa-app/gstu-logo.png" />
     <script type="module" crossorigin src="/cgpa-app/assets/index-CO4qNq9c.js"></script>
     <link rel="stylesheet" crossorigin href="/cgpa-app/assets/index-Dww7t8YX.css">
+    <style>
+      @media (max-width: 1024px) {
+        table {
+          display: block;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          width: 100%;
+          border-collapse: separate;
+        }
+        
+        thead,
+        tbody,
+        tr,
+        td,
+        th {
+          display: block;
+        }
+        
+        thead {
+          display: none;
+        }
+        
+        tr {
+          margin-bottom: 16px;
+          border: 1px solid rgba(0, 212, 255, 0.15);
+          border-radius: 8px;
+          padding: 12px;
+        }
+        
+        td {
+          padding: 8px 12px;
+          text-align: left;
+          border: none;
+          display: grid;
+          grid-template-columns: 120px 1fr;
+          gap: 12px;
+          align-items: center;
+        }
+        
+        td:first-child {
+          grid-column: 1 / -1;
+          font-weight: 700;
+          color: #00d4ff;
+          padding: 12px;
+          background: rgba(0, 212, 255, 0.05);
+          border-radius: 4px;
+          margin-bottom: 8px;
+        }
+        
+        td:before {
+          content: attr(data-label);
+          font-weight: 600;
+          color: #00d4ff;
+          font-size: 11px;
+          text-transform: uppercase;
+        }
+      }
+      
+      body {
+        padding-bottom: 70px;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
